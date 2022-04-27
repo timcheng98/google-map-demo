@@ -110,7 +110,6 @@ export const draweBlackSpotMarkerWidthInfoWindow = async (maps, map) => {
             if (prev_infowindow) {
                 prev_infowindow.close();
             }
-            console.log(infoWindow)
             infoWindow.open({
                 map,
                 anchor: marker,
